@@ -1,7 +1,7 @@
 # Final Capstone Project - Module 3
 
 ## Overview
-This repository contains the Jupyter Notebook for a project involving analyzing a dataset to derive meaningful insights and applying machine learning techniques to solve a defined problem.
+This repository contains the Jupyter Notebook for a project involving a dataset analysis to derive meaningful insights and application of machine learning techniques to solve a defined problem.
 
 ## Contents of the Repository
 - **Notebook**: `Final_Capstone_Module_3_Hermily.ipynb`
@@ -35,8 +35,22 @@ The notebook starts by outlining the project's context, objectives, and problem 
   - Support Vector Machines were explored for their effectiveness in high-dimensional spaces.
 - Evaluation metrics such as accuracy, precision, and recall are calculated to assess model performance.
 
-### 6. Conclusion
-- Insights derived from the analysis and results of the models are summarized.
+### 6. Recommendations and Impact
+#### Recommendations:
+- **Focus on Key Features**: Prioritize features like **Tenure**, **CashbackAmount**, and **Complain history**, as they are crucial for predicting customer behavior.
+- **Model Integration**: Use the trained model with a recall score of **0.8033** for decision-making, especially to identify high-risk customers.
+- **Feature Refinement**: Enhance less impactful features like **Marital Status** and **Preferred Order Categories** to improve model performance.
+- **Automation**: Automate predictions to improve efficiency and accuracy in operations.
+
+#### Effect and Difference of Using the Model:
+| **Using the Model**                                      | **Not Using the Model**                                       |
+|----------------------------------------------------------|--------------------------------------------------------------|
+| Data-driven, accurate decisions.                         | Reliant on intuition, less accurate.                          |
+| Automates tasks, saving time and resources.              | Manual processes, slower and error-prone.                     |
+| Scales easily with large datasets.                       | Struggles to handle large data efficiently.                   |
+| Provides actionable insights with high accuracy.         | Lacks clear insights, leading to inefficiencies.              |
+
+Using the model optimizes decision-making by automating tasks, ensuring accuracy, and efficiently handling large datasets. Without it, decisions are slower, less accurate, and harder to scale.
 
 ## Requirements
 The notebook uses the following Python libraries:
